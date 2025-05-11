@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "h1": "Bem-vindo ao Meu Site",
+    "slogan": "Inovação e Qualidade",
+    "title": "Título do Hero",
+    "description": "Descrição impactante para captar a atenção dos visitantes."
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "subtitle": "Nossa Missão e Visão",
+    "description": "Somos uma empresa dedicada a criar soluções incríveis. Trabalhamos com paixão para transformar ideias em realidade.",
+    "extraSentence": "Junte-se a nós para construir o futuro!"
+  },
+  "clientShowcase": {
+    "title": "Showcase de Clientes",
+    "subtitle": "Nossos Projetos de Sucesso",
+    "cards": [
+      {
+        "image": "url_imagem_1.jpg",
+        "cardTitle": "Projeto 1",
+        "cardDescription": "Descrição do projeto 1, destacando os resultados alcançados."
+      },
+      {
+        "image": "url_imagem_2.jpg",
+        "cardTitle": "Projeto 2",
+        "cardDescription": "Descrição do projeto 2, mostrando nosso impacto no mercado."
+      }
+    ]
+  },
+  "footer": {
+    "title": "Entre em Contato",
+    "address": "Rua Exemplo, 123, Cidade, Estado",
+    "fone": "+55 (11) 1234-5678",
+    "contactUsButton": "Fale Conosco",
+    "pageCredits": "Desenvolvido por xAI"
+  }
+}
