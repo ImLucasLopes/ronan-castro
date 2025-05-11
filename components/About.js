@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="flex flex-col text-white bg-[#2E456A] py-4 md:py-[4%] px-[4%] md:px-[8%]">
+    <section className="flex flex-col text-[#F5EFE7] bg-[#2E456A] py-4 md:py-[4%] px-[4%] md:px-[8%]">
       <h2 className="text-center font-medium text-4xl md:text-5xl mb-20">
         GRAVAÇÕES - MIXAGENS - MASTERIZAÇÕES
       </h2>
@@ -23,6 +23,6 @@ export default function About() {
         <strong>Ronan Castro Produções</strong>: onde sua música encontra
         identidade, qualidade e impacto.
       </p>
-    </div>
+    </section>
   )
 }
