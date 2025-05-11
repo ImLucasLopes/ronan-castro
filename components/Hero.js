@@ -3,12 +3,6 @@
 import { useEffect, useRef } from 'react'
 
 export default function Hero() {
-  // useEffect(() => {
-  //   const titleUpperCase = (text) => {
-  //     return text.toUpperCase()
-  //   }
-  // })
-
   const sectionRef = useRef(null)
 
   // Bloquear clique com o botão direito
@@ -52,7 +46,7 @@ export default function Hero() {
       <section
         ref={sectionRef}
         className="relative bg-[url('/images/img-hero.jpg')] bg-cover bg-center bg-no-repeat py-[8%] h-screen w-full select-none"
-        style={{ backgroundPositionY: '0px' }} // Posição inicial do fundo
+        style={{ backgroundPositionY: '0px', backgroundColor: '#F5EFE7' }} // Posição inicial do fundo
       >
         {/* Camada transparente para bloquear interações */}
         <div className="absolute inset-0 bg-transparent pointer-events-none" />
