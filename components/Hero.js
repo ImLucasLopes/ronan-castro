@@ -42,8 +42,8 @@ export default function Hero() {
   }, [])
 
   return (
-    <div className="bg-[#F5EFE7] flex md:py-[6%] md:px-[8%]">
-      <section
+    <section className="bg-[#F5EFE7] flex md:py-[6%] md:px-[8%]">
+      <div
         ref={sectionRef}
         className="relative bg-[url('/images/img-hero.jpg')] bg-cover bg-center bg-no-repeat py-[8%] h-screen w-full select-none"
         style={{ backgroundPositionY: '0px', backgroundColor: '#F5EFE7' }} // Posição inicial do fundo
@@ -64,7 +64,7 @@ export default function Hero() {
             Produzindo músicas desde 2010.
           </p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   )
 }
