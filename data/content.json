@@ -1,37 +1,63 @@
 {
+  "metadata": {
+    "title": "Ronan Castro Produções",
+    "description": "Transforme suas ideias musicais em produções de alto nível com Ronan Castro."
+  },
   "hero": {
-    "h1": "Bem-vindo ao Meu Site",
-    "slogan": "Inovação e Qualidade",
-    "title": "Título do Hero",
-    "description": "Descrição impactante para captar a atenção dos visitantes."
+    "title": "Ronan Castro",
+    "subtitle": "Produções",
+    "tagline": "Produzindo músicas desde 2010."
   },
   "about": {
-    "title": "Sobre Nós",
-    "subtitle": "Nossa Missão e Visão",
-    "description": "Somos uma empresa dedicada a criar soluções incríveis. Trabalhamos com paixão para transformar ideias em realidade.",
-    "extraSentence": "Junte-se a nós para construir o futuro!"
+    "title": "Gravações - Mixagens - Masterizações",
+    "producer_name": "Ronan Castro Produções",
+    "tagline": "— Dando vida ao seu som.",
+    "icon_music": "🎵",
+    "description": {
+      "intro": "Transforme suas ideias musicais em produções de alto nível com Ronan Castro, produtor musical especializado em criar experiências sonoras únicas. Com uma abordagem criativa, sensível e focada nos detalhes, Ronan oferece serviços de produção, mixagem, masterização e direção musical para artistas e bandas.",
+      "commitment": "Do estúdio para o mundo, cada projeto é tratado com excelência, personalidade e profissionalismo — seja você iniciante ou artista consolidado.",
+      "summary": "onde sua música encontra identidade, qualidade e impacto."
+    }
   },
   "clientShowcase": {
-    "title": "Showcase de Clientes",
-    "subtitle": "Nossos Projetos de Sucesso",
+    "title": "Quem gravou conosco",
+    "subtitle": "Alguns dos artistas e bandas que passaram por aqui",
     "cards": [
       {
-        "image": "url_imagem_1.jpg",
-        "cardTitle": "Projeto 1",
-        "cardDescription": "Descrição do projeto 1, destacando os resultados alcançados."
+        "id": "1",
+        "image": "/images/artists/image-artists-1.jpg",
+        "alt": "Imagem de artista 1",
+        "cardTitle": "Juraci park 1",
+        "cardDescription": "Gravação de bateria, Vocais e banda completa"
       },
       {
-        "image": "url_imagem_2.jpg",
-        "cardTitle": "Projeto 2",
-        "cardDescription": "Descrição do projeto 2, mostrando nosso impacto no mercado."
+        "id": "2",
+        "image": "/images/artists/image-artists-2.jpg",
+        "alt": "Imagem de artista 2",
+        "cardTitle": "Juraci park 2",
+        "cardDescription": "Gravação de bateria, Vocais e banda completa"
+      },
+      {
+        "id": "3",
+        "image": "/images/artists/image-artists-3.jpg",
+        "alt": "Imagem de artista 3",
+        "cardTitle": "Juraci park 3",
+        "cardDescription": "Gravação de bateria, Vocais e banda completa"
+      },
+      {
+        "id": "4",
+        "image": "/images/artists/image-artists-4.jpg",
+        "alt": "Imagem de artista 4",
+        "cardTitle": "Juraci park 4",
+        "cardDescription": "Gravação de bateria, Vocais e banda completa"
       }
     ]
   },
   "footer": {
-    "title": "Entre em Contato",
-    "address": "Rua Exemplo, 123, Cidade, Estado",
-    "fone": "+55 (11) 1234-5678",
+    "title": "Fale com Ronan Castro",
+    "address": "Rua esquina do zé, nr 2000 - setor do cumpade - Aparecida de Goiânia - Goiás - Cep. 74.000-000",
+    "fone": "(62) 9 9999-9999",
     "contactUsButton": "Fale Conosco",
-    "pageCredits": "Desenvolvido por xAI"
+    "pageCredits": "© 2025 Ronan Castro Produções"
   }
 }
