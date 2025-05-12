@@ -1,8 +1,10 @@
 'use client'
 
+import { useContent } from '../lib/ContentContext'
 import { useEffect, useRef } from 'react'
 
 export default function Hero() {
+  const { hero } = useContent()
   const sectionRef = useRef(null)
 
   // Bloquear clique com o botão direito
@@ -57,11 +59,13 @@ export default function Hero() {
             // ref={titleUpperCase}
             className="font-poppins font-extrabold text-4xl sm:text-4xl md:text-5xl lg:text-6xl text-[#F5EFE7] drop-shadow-lg"
           >
-            <span className="block mb-[8%]">RONAN CASTRO</span>
-            <span className="block mb-[20%]">PRODUÇÕES</span>
+            <span className="block mb-[8%]">{hero.title.toUpperCase()}</span>
+            <span className="block mb-[20%]">
+              {hero.subtitle.toUpperCase()}
+            </span>
           </h1>
           <p className="font-light text-lg sm:text-lg md:text-3xl text-[#F5EFE7] drop-shadow-md">
-            Produzindo músicas desde 2010.
+            {hero.tagline}
           </p>
         </div>
       </div>
