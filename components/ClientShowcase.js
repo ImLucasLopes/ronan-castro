@@ -1,11 +1,6 @@
-'use client'
-
 import Image from 'next/image'
-import { useContent } from '../lib/ContentContext'
 
 export default function ClientShowcase() {
-  const { clientShowcase } = useContent()
-
   return (
     <section className="flex flex-col items-center bg-[#F5EFE7] py-4 md:py-[4%] px-[4%] md:px-[8%]">
       <h3 className="text-center text-[#000]] font-extrabold text-4xl md:text-5xl mb-3">

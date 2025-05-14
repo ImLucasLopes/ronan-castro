@@ -1,11 +1,6 @@
-'use client'
-
 import ContactForm from '../components/ContactForm'
-import { useContent } from '../lib/ContentContext'
 
 export default function Footer() {
-  const { footer } = useContent()
-
   const getYearFooter = () => {
     if (typeof Date !== 'undefined') {
       return '© ' + new Date().getFullYear()

@@ -1,10 +1,6 @@
-'use client'
-
-import { useContent } from '../lib/ContentContext'
 import { useEffect, useRef } from 'react'
 
 export default function Hero() {
-  const { hero } = useContent()
   const sectionRef = useRef(null)
 
   // Bloquear clique com o botão direito
