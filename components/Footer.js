@@ -1,6 +1,6 @@
 import ContactForm from '../components/ContactForm'
 
-export default function Footer() {
+export default function Footer({ footer }) {
   const getYearFooter = () => {
     if (typeof Date !== 'undefined') {
       return '© ' + new Date().getFullYear()

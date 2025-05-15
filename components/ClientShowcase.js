@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function ClientShowcase() {
+export default function ClientShowcase({ clientShowcase }) {
   return (
     <section className="flex flex-col items-center bg-[#F5EFE7] py-4 md:py-[4%] px-[4%] md:px-[8%]">
       <h3 className="text-center text-[#000]] font-extrabold text-4xl md:text-5xl mb-3">
