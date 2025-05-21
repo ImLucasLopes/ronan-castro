@@ -45,7 +45,7 @@ export default function Hero({ hero }) {
     <section className="bg-[#F5EFE7] flex md:py-[6%] md:px-[8%]">
       <div
         ref={sectionRef}
-        className="relative bg-[url('/images/img-hero.jpg')] bg-cover bg-center bg-no-repeat py-[8%] h-screen w-full select-none"
+        className="relative bg-[url('/images/img-hero.webp')] bg-cover bg-center bg-no-repeat py-[8%] h-screen w-full select-none"
         style={{ backgroundPositionY: '0px', backgroundColor: '#F5EFE7' }} // Posição inicial do fundo
       >
         {/* Camada transparente para bloquear interações */}
